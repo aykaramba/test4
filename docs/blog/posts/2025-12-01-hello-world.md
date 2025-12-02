@@ -1,6 +1,6 @@
 ---
 date: 2024-01-31
-categoreis:
+categories:
     - Documentation
 tags:
     - MkDocs
