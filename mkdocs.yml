@@ -35,9 +35,12 @@ nav:
   # - Blog:
   #   - blog/index.md
 
+
+
 theme:
   name: material
-  palette: 
+  palette:
+    #primary: custom
     # Palette toggle for dark mode
     - scheme: slate
       toggle:

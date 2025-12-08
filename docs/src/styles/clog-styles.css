@@ -1,4 +1,26 @@
 
+/* custom colors */
+
+/* 
+:root  > * {
+
+   --md-primary-fg-color: #ffc105;
+   --md-primary-fg-color--light: #000000 !important;
+   --md-primary-fg-color--dark:  #000000 !important;
+}
+
+.md-tabs__item {
+  color: black !important;
+  font-family: Roboto;
+  font-weight: 700;
+}
+
+.md-header__title {
+  color: black !important;
+}
+
+*/
+
 
 /*
 Intro - Paragraph Text
