@@ -1,7 +1,6 @@
-
-site_name: Techdox Docs - THIS IS A TEST test
+site_name: Documentation - CLOG The Common Lisp Omnificent GUI
 nav:
-  - About CLOG: about-clog.md
+  - About CLOG: index.md
   - Getting Started:
     - Getting started with Common Lisp: getting-started/getting-started.md
     - Setting up a Dev Environment: getting-started/setting-up-dev.md
