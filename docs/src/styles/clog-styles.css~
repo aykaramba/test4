@@ -1,0 +1,49 @@
+
+
+
+
+
+
+/*
+Used for indeting paragraphs with {: .indent } markdown attribute list feature.
+Reference: https://python-markdown.github.io/extensions/attr_list/#limitations
+*/
+.indent-h1 {padding-left: 0.0em !important;}
+.indent-h2 {padding-left: 1.2em !important;}
+.indent-h3 {padding-left: 2.2em !important;}
+.indent-h4 {padding-left: 3.2em !important;}
+.indent-h5 {padding-left: 4.2em !important;}
+.indent-h6 {padding-left: 5.2em !important;}
+
+/*
+Used for header paragraphs to make the introductory paragraph stand out.
+*/
+.intro {
+    font-size: 20px;
+} 
+
+/* indentation of headings */
+h1 {padding-left: 0.0em !important;}
+h2 {padding-left: 0.2em !important;}
+h3 {padding-left: 1.2em !important;}
+h4 {padding-left: 2.2em !important;}
+h5 {padding-left: 3.2em !important;}
+h6 {padding-left: 4.2em !important;}
+
+/* indentation - admonition */
+.zzz  {
+    
+    margin-left: 140px !important;
+ 
+}
+
+
+
+
+/* indentation - margin */
+.margin-h1 {margin-left: 0.0em !important;}
+.margin-h2 {margin-left: 1.2em !important;}
+.margin-h3 {margin-left: 2.2em !important;}
+.margin-h4 {margin-left: 3.2em !important;}
+.margin-h5 {margin-left: 4.2em !important;}
+.margin-h6 {margin-left: 5.2em !important;}

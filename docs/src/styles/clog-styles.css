@@ -1,0 +1,47 @@
+
+
+/*
+Intro - Paragraph Text
+Use this to set the text size for the intro paragraph in H1 sections.
+*/
+.intro {font-size: 20px;} 
+
+/*
+Indentation - Paragraph
+
+Use this to indent paragraphs with {: .indent-h1  } markdown attribute list feature. Note that you can mix css classes and id's like this: {: #id1 #id2 .class1 .class2 } and so on.
+
+We style H1 paragraph text with {: .intro .indent-h1 } in order to set the indent and font size appropriately.
+
+Yes, .indent-h1 is set to 0.0em as we might change this in the future.
+
+Reference: https://python-markdown.github.io/extensions/attr_list/#limitations
+*/
+.indent-h1 {padding-left: 0.0em !important;}
+.indent-h2 {padding-left: 1.2em !important;}
+.indent-h3 {padding-left: 2.2em !important;}
+.indent-h4 {padding-left: 3.2em !important;}
+.indent-h5 {padding-left: 4.2em !important;}
+.indent-h6 {padding-left: 5.2em !important;}
+
+/*
+Indentation - Headings
+Use this to indent H1 -> H6 headings
+*/
+h1 {padding-left: 0.0em !important;}
+h2 {padding-left: 0.2em !important;}
+h3 {padding-left: 1.2em !important;}
+h4 {padding-left: 2.2em !important;}
+h5 {padding-left: 3.2em !important;}
+h6 {padding-left: 4.2em !important;}
+
+/*
+Indentation - Margin
+Use this to indent <div> elements used to wrap difficult to indent MkDocs objects.
+*/
+.margin-h1 {margin-left: 0.0em !important;}
+.margin-h2 {margin-left: 1.2em !important;}
+.margin-h3 {margin-left: 2.2em !important;}
+.margin-h4 {margin-left: 3.2em !important;}
+.margin-h5 {margin-left: 4.2em !important;}
+.margin-h6 {margin-left: 5.2em !important;}

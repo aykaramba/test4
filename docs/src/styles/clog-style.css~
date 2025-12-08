@@ -1,0 +1,8 @@
+
+/* 
+Used for indeting paragraphs with {: .indent } markdown attribute list feature. Reference: https://python-markdown.github.io/extensions/attr_list/#limitations
+*/
+.indent {
+  padding-left: 1.2em;
+}
+

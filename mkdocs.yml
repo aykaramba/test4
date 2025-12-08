@@ -1,22 +1,40 @@
+
 site_name: Techdox Docs - THIS IS A TEST test
 nav:
-  - Home: index.md
-  - About: 
-    - About this Project: about/about.md
-    - Topic 1: about/topic1.md
-    - Topic 2: about/topic2.md
-    - Topic 3: about/topic3.md
-    - Topic 4: about/topic4.md
-  - Docker Containers:
-      - Overview: docker-containers.md
-      - Adguard: adguard.md
+  - About CLOG: about-clog.md
+  - Getting Started:
+    - Getting started with Common Lisp: getting-started/getting-started.md
+    - Setting up a Dev Environment: getting-started/setting-up-dev.md
+    - Pointers to Getting Started Quick: getting-started/pointers-to-get-started-quick.md
+    - Package management OCICL and QuickLisp: getting-started/package-management.md
+  - CLOG Application Creation:
+    - Basics: clog-application-creation/basics.md
+    - Using html for layout: clog-application-creation/using-html.md
+    - Using panels: clog-application-creation/using-panels.md
+    - Using html grid for layout: clog-application-creation/using-html-grids.md
+    - Using CSS affectively: clog-application-creation/using-css-effectively.md
+    - Access control: clog-application-creation/access-control.md
+    - Restoring sessions: clog-application-creation/restoring-sessions.md
+  - CLOG Application Delivery:
+    - Traditional Websites: clog-application-delivery/traditional-websites.md
+    - Web application: clog-application-delivery/web-applications.md
+    - Desktop applications: clog-application-delivery/desktop-applications.md
+    - Mobile applications: clog-application-delivery/mobile-applications.md
+    - Embedded devices: clog-application-delivery/embedded-devices.md
+  - Security and CLOG:
+    - Security and CLOG: security/security-and-clog.md
+    - Net Security: security/net-security-general.md
+  - Documentation Cheat Sheet: doc-cheat-sheet.md
+  # - Docker Containers:
+  #     - Overview: docker-containers.md
+  #     - Adguard: adguard.md
       # Additional Docker container pages...
-  - Networking:
-      - Overview: networking-overview.md
-      - GlusterFS: glusterfs.md
-  - Tags: tags.md
-  - Blog:
-    - blog/index.md
+  # - Networking:
+  #     - Overview: networking-overview.md
+  #     - GlusterFS: glusterfs.md
+  # - Tags: tags.md
+  # - Blog:
+  #   - blog/index.md
 
 theme:
   name: material
@@ -48,6 +66,23 @@ theme:
     - search.share
     - content.code.copy
     - navigation.footer
+  icon:
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+  
+extra_css:
+    - src/styles/clog-styles.css
 
 plugins: 
   - search
@@ -67,6 +102,10 @@ markdown_extensions:
   - abbr
   - admonition
   - attr_list
+  - def_list
+  - tables
+  - footnotes
+  - callouts # custom extenstion from here: https://oprypin.github.io/markdown-callouts/#__tabbed_3_1
   # Additional Markdown extensions...
   - pymdownx.arithmatex:
       generic: true
@@ -74,4 +113,18 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
   # More pymdownx extensions...

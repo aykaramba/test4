@@ -1,0 +1,15 @@
+
+# About CLOG
+This is your [MkDocs Reference (with the Material theme)](https://squidfunk.github.io/mkdocs-material){target="_blank"} MkDocs (Material theme) cheatsheet covering headers, lists, links, images, code blocks, tables, and more – all in one printable page for quick reference when writing docs, READMEs, or tutorials.
+{: .indent-h1 .intro }
+
+This markdown cheat sheet is not an exhaustive list of markdown tags available to you, only the bare minimum to help you create and edit beautiful documentation and tutorials.  For a full list of available markdown tags, visit the [Material for MkDocs Reference](https://squidfunk.github.io/mkdocs-material/reference){target="_blank"} documentation.
+{: .indent-h1 .intro }
+
+Remember, unreadable documentation is useless. Beautiful documentation is readable and useful. Make it beautiful in order to make it useful.
+{: .indent-h1 .intro }
+
+
+
+
+
